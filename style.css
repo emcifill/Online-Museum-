@@ -30,3 +30,57 @@ ul li a {
 ul li a:hover {
   background-color: #111111;
 }
+
+#prehistoric_body {
+	background-color: Bisque;
+}
+
+
+#medieval_body {
+	background-color: Gainsboro;
+}
+
+#early_modern_body {
+	background-color: DarkSalmon;
+}
+
+.prehistoric_color {
+	background-color: BurlyWood;
+}
+
+.medieval_color {
+	background-color: Ivory;
+}
+
+.early_modern_color {
+	background-color: Salmon;
+}
+
+.images {
+	border: solid;
+	margin-left: 12%;
+	margin-top: 3%
+}
+
+.text {
+	font-size: 200%;
+	margin-left: 20%;
+	margin-top: 2%;
+	border: solid;
+	display: inline-block;
+}
+
+.title {
+	text-align: center;
+	margin: auto;
+	margin-top: 3%;
+	border: solid;
+}
+
+.date {
+	text-align: center;
+	margin-left: auto;
+	margin-right:auto;
+	margin-top: 1%;
+	border: solid;
+}
