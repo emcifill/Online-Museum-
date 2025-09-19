@@ -31,7 +31,6 @@ ul li a:hover {
   background-color: #111111;
 }
 
-<<<<<<< HEAD
 #prehistoric_body {
 	background-color: Bisque;
 }
@@ -42,7 +41,7 @@ ul li a:hover {
 }
 
 #early_modern_body {
-	background-color: DarkSalmon;
+	background-color: PeachPuff;
 }
 
 .prehistoric_color {
@@ -54,12 +53,18 @@ ul li a:hover {
 }
 
 .early_modern_color {
-	background-color: Salmon;
+	background-color: SeaShell;
 }
 
 .images {
 	border: solid;
 	margin-left: 12%;
+	margin-top: 3%
+}
+
+#mona_lisa {
+	border: solid;
+	margin-left: 19.5%;
 	margin-top: 3%
 }
 
@@ -106,3 +111,19 @@ ul li a:hover {
 }
 
 
+#demo {
+	width: 10%;
+	height: 10%;
+	border: solid;'
+	max-width: fit-content;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#carousel_text {
+	max-width: fit-content;
+	margin-left: auto;
+	margin-right: auto;
+	font-size: 200%;
+	border: solid;
+}
