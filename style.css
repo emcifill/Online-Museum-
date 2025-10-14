@@ -1,3 +1,4 @@
+
 body {
      margin: 0;
      padding: 0;
@@ -52,9 +53,10 @@ body {
 }
  .images {
      border: solid;
-     margin-left: 12%;
-     margin-top: 3% 
+     margin-top: 3%;
+	 margin-left: 10%;
 }
+
 
 
 #king {
@@ -75,12 +77,6 @@ body {
 }
 
 
-.text2 {
-	
-
-}
-
-
  .title {
      text-align: center;
      margin: auto;
@@ -95,8 +91,6 @@ body {
      border: solid;
 }
  .info {
-    /* flex-basis: 40%;
-    */
      display:flex;
      max-width:980px;
      margin:auto;
@@ -127,18 +121,22 @@ figcaption {
      text-align: center;
      font-size: 50px;
 }
+/*
  .d-block {
      margin: auto;
      width: 700px;
      height: 700px;
      padding: 10px;
 }
+*/
+
  .carousel-caption{
      background-color: rgba(0, 0, 0, 0.7);
 }
  * {
      box-sizing: border-box;
 }
+
 /* The actual timeline (the vertical ruler) */
  .timeline {
      position: relative;
@@ -253,30 +251,6 @@ figcaption {
 }
 
 
-
-#demo2 {
-	width: 25%;
-	height: 20%;
-	max-width: fit-content;
-	margin-left: auto;
-	margin-right: auto;
-	margin-top: 1em;
-	margin-bottom: 1em;
-}
-
-
-#prehistoric_carousel {
-	width: 20%;
-	height: 20%;
-	max-width: fit-content;
-	margin-left: auto;
-	margin-right: auto;
-	margin-top: 1em;
-	margin-bottom: 1em;
-}
-
-
-
 #carousel_text {
 	max-width: fit-content;
 	margin-left: auto;
@@ -284,3 +258,17 @@ figcaption {
 	font-size: 200%;
 	border: solid;
 }
+
+.shrink {
+	width: 15%;
+}
+
+.center {
+	display: block;
+	margin: auto;
+}
+
+.timeline_center {
+	margin-right: 5%;
+}
+

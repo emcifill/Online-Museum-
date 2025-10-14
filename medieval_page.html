@@ -11,14 +11,39 @@
 </head>
 <body id="medieval_body">
 
-<ul>
-  <li><a href="index.html">Home</a></li>
-  <li><a href="prehistoric_page.html">Pre-Historic Era</a></li>
-  <li><a href="classical_era_page.html">Classical Era</a></li>
-  <li><a href="medieval_page.html">Medieval Era</a></li>
-  <li><a href="early_modern_era_page.html">Early Modern Era</a></li>
-  <li><a href="modern_era_page.html">Modern Era</a></li>
-</ul>
+<nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+  <div class="container-fluid">
+	
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+	
+    <div class="collapse navbar-collapse" id="collapsibleNavbar">
+      <ul class="navbar-nav">
+		<li class="nav-item">
+          <a class="nav-link" href="index.html">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="prehistoric_page.html">Pre-Historic Era</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="classical_era_page.html">Classical Era</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active" href="medieval_page.html">Medieval Era</a>
+        </li>
+		<li class="nav-item">
+          <a class="nav-link" href="early_modern_era_page.html">Early Modern Era</a>
+        </li>
+		<li class="nav-item">
+          <a class="nav-link" href="modern_era_page.html">Modern Era</a>
+        </li>
+      </ul>
+    </div>
+	
+  </div>
+</nav>
+ 
 
 <h1 class="title medieval_color">Middle Age Era</h1>
 
@@ -52,7 +77,7 @@
 <div id="demo2">
 
 <!-- Carousel -->
-<div id="demo" class="carousel slide" data-bs-ride="carousel">
+<div id="demo" class="carousel slide shrink center" data-bs-ride="carousel">
 
   <!-- Indicators/dots -->
   <div class="carousel-indicators">

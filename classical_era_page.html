@@ -8,14 +8,42 @@
       <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
    </head>
    <body id="classical">
-      <ul>
-         <li><a href="index.html">Home</a></li>
-         <li><a href="prehistoric_page.html">Pre-Historic Era</a></li>
-         <li><a href="classical_era_page.html">Classical Era</a></li>
-         <li><a href="medieval_page.html">Medieval Era</a></li>
-         <li><a href="early_modern_era_page.html">Early Modern Era</a></li>
-         <li><a href="modern_era_page.html">Modern Era</a></li>
+   
+     <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+  <div class="container-fluid">
+	
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+	
+    <div class="collapse navbar-collapse" id="collapsibleNavbar">
+      <ul class="navbar-nav">
+		<li class="nav-item">
+          <a class="nav-link" href="index.html">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="prehistoric_page.html">Pre-Historic Era</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active" href="classical_era_page.html">Classical Era</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="medieval_page.html">Medieval Era</a>
+        </li>
+		<li class="nav-item">
+          <a class="nav-link" href="early_modern_era_page.html">Early Modern Era</a>
+        </li>
+		<li class="nav-item">
+          <a class="nav-link" href="modern_era_page.html">Modern Era</a>
+        </li>
       </ul>
+    </div>
+	
+  </div>
+</nav>
+ 
+	  
+	  
       <!-- <h2>Horizontal Navbar Using Float</h2> -->
       <!-- <p>Some text on the website.</p> -->
       <h1 id="home">Classical Era</h1>
@@ -31,7 +59,7 @@
          </div>
       </div>
       <h1 id="home">Artifacts</h1>
-      <div id="demo" class="carousel slide" data-bs-ride="carousel">
+      <div id="demo" class="carousel slide center" data-bs-ride="carousel">
          <!-- Indicators/dots -->
          <div class="carousel-indicators">
             <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
