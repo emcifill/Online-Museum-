@@ -121,14 +121,15 @@ figcaption {
      text-align: center;
      font-size: 50px;
 }
+
 /*
- .d-block {
-     margin: auto;
+ .d-block2 {
      width: 700px;
      height: 700px;
-     padding: 10px;
 }
+
 */
+
 
  .carousel-caption{
      background-color: rgba(0, 0, 0, 0.7);
@@ -268,7 +269,13 @@ figcaption {
 	margin: auto;
 }
 
+.center2 {
+	width: 60%;
+	display: block;
+	margin: auto;
+}
+
 .timeline_center {
-	margin-right: 5%;
+	margin-left: -0.3%;
 }
 
